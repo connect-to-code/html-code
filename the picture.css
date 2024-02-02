@@ -1,0 +1,39 @@
+*{
+    border-spacing: border-box;
+}
+body{
+    font-family: arial, heletica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(../image/147109.jpg);
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header b{
+    font-size: 25px;
+    color: #fff;
+    padding: 20px;
+}
+header p{
+    text-align:right;;
+    color: white;
+    padding: 10px;
+    font-size:15px;
+    
+    }   
+.navigation{
+    color: black;
+}
+.navigation ul{
+    list-style-type="none";
+    color: black;
+}
+ul li a{
+    list-style-type: none;
+}
+li{
+    
+}

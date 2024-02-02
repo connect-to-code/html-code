@@ -1,0 +1,29 @@
+*{
+    border-spacing: border-box;
+}
+body{
+    font-family:Verdana;">
+}
+.header{
+    background-color: #f1f1f1;
+    
+}
+.main{
+    float: left;
+    width: 50%;
+}
+.menuitem{
+    padding: 8px;
+    margin-top: 7px;
+    border: 1px solid #f1f1f1;
+    width: 20%;
+}
+.main{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}

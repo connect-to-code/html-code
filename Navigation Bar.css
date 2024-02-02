@@ -1,0 +1,77 @@
+body{
+ 
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: hotpink;
+    padding: 5px;
+    
+}
+
+    
+}   
+.Border{
+    float: left;
+    font-size: 40px;
+     border: 10px groove green;
+ 
+}
+.Border h3 {
+    
+}
+.borderstyle{
+    float: left;
+    font-size: 30px;
+}
+.dotted{
+    border: 10px dotted ;
+    border-right-style: solid;
+    border-bottom-style: groove;
+    border-left-style: solid;
+    border-color: red green blue yellow;;
+}
+.dashed{
+    border-style: 3px dashed solid;
+}
+.solid{ 
+    border: 3px solid;
+    border-width:2px 20px 2px 20px;
+}
+.double{
+    border: 3px double ;
+   
+}
+.groove{
+    border: 13px groove ;
+    border-width: 15px;
+}
+.ridge{
+    border: 3px ridge ;
+}
+.inset{
+    border: 3px inset;
+}
+.outset{
+    border: 3px outset;
+}
+.mixed{
+    border: 3px dotted dashed solid double;
+}
+.preborder{
+    border-style: 3px dotted solid;
+}
+.different{
+    dorder-style: 3px solid dashed;
+}
