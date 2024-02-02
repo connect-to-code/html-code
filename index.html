@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CSS Flex, Media Query</title>
+
+    <style>
+        .container {
+            display: flex;
+            gap: 25px;
+        }
+        .box{
+            background-color: aqua;
+            padding: 10px;
+            font-family: 'Arial Narrow', sans-serif;
+
+        }
+        @media  screen and (max-width: 576px) {
+            .container {
+            display: flex;
+            flex-direction: column;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex Box Responsive</h2>
+    <div class="container">
+        <div class="box">
+            <h3 class="box-title">Box 1 try to Responsive</h3>
+            <p class="box-pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a, nemo perspiciatis pariatur, corrupti obcaecati vel exercitationem possimus laborum repudiandae, asperiores facilis reprehenderit laudantium atque delectus ex recusandae blanditiis! Incidunt.</p>
+        </div>
+        <div class="box">
+            <h3 class="box-title">Today I will try how to work responsive</h3>
+            <p class="box-pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a, nemo perspiciatis pariatur, corrupti obcaecati vel exercitationem possimus laborum repudiandae, asperiores facilis reprehenderit laudantium atque delectus ex recusandae blanditiis! Incidunt.</p>
+        </div>
+    </div>
+</body>
+</html>
