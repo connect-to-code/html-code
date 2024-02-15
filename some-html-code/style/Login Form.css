@@ -1,0 +1,56 @@
+body{
+       background: #75c35d;
+}
+.loginform{
+    width: 400px;
+    background: white;
+    padding: 50px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 260px;
+    box-shadow: 1px 1px 20px rgb(68, 66, 66);
+    
+}
+.loginform h3{
+   text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #000000ba;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px#00B243;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.loginform input{
+    width: 89%; 
+    display: block;
+    padding: 20px; 
+    background: #f2f2f2;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+} 
+.loginbtn{
+    background: #00B243 !important;
+    color: white;
+    width: 100% !important;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    transform: scale(1.1);
+   background: linear-gradient(#00000099, #4f963ad9)  !important;
+} 
+
+.creatan{
+    text-align: center;
+    font-size:18px;
+}
+.creatan span{
+    color: #beb6b6; 
+}
+.creatan a{
+    color:#35BC5E;
+    text-decoration: none;
+}

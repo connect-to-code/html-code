@@ -1,0 +1,15 @@
+h1{	
+	font-size:50px;
+	text-align:center;
+	color:#ffff00;
+}
+a{
+	color=#ff0000;
+	font-size:35px;
+}
+		
+p{
+	border: 5px solid #ffd700;
+	font-size:30px;
+	padding: 15px 25px;
+}

@@ -1,0 +1,17 @@
+body{
+	background-color:#808080;
+}
+h1{
+	font-size:70px;
+	text-align:center;
+	
+}
+p{
+	background-image: url("wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-size:40px;
+	
+}
+

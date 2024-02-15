@@ -1,0 +1,39 @@
+		a:link, a:visited{
+				background-color:#fa8072;
+				color:#00ff00;
+				font-size:40px;
+				padding: 25px 35px;
+			}
+			a:hover, a:active{
+				background-color:#800080;
+			}
+			h1{
+				font-size:40px;
+				text-align:center;
+			}
+			p{
+				background-image: url("wallpaper2.jpg");
+				background-repeat: no-repeat;
+				background-attachment: ;
+				font-size: 50px;
+				text-align: center;
+				color:#00ff00;
+				background-size:100%100%;
+				
+				}
+				img{
+					border: 2px solid #808080;
+					padding: 30px;
+				}
+			blockquote{
+				font-size:30px;
+				margin:10px;
+				border: 10px solid #ff0000;
+				padding: 15ppx 25px;
+			}
+			strong{
+				font-size:30px;
+			}
+			q{
+				font-size:30px;
+			}
